@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Paul & Co | Architecture • Planning • Liaisoning • Interiors</title>
+    <meta name="description"
+        content="A Paul & Co is a multidisciplinary architecture firm specializing in architecture, planning, liaisoning, and interior design. Founded by Ar. Aaron Paul Lopes, registered with the Council of Architecture, India." />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <img src="logo.png" alt="A Paul & Co Logo" class="logo-img" />
+                <div class="logo-text">
+                    <span class="logo-name">A.PAUL <span class="gold">&</span> CO.</span>
+                    <span class="logo-tagline">Architecture • Planning • Liaisoning • Interiors</span>
+                </div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#founder" class="nav-link">Founder</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#approach" class="nav-link">Approach</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link contact-btn">Contact Us</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <!-- Fullscreen Video Background -->
+            <video class="hero-video" id="heroVideo" autoplay muted loop playsinline poster="building.png">
+                <source src="hero-video.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge fade-in">Since 2025</div>
+            <h1 class="hero-headline fade-in delay-1">
+                Your Vision.<br />Our Planning.<br />
+                <span class="gold-text">Exceptional Architecture.</span>
+            </h1>
+            <!-- <p class="hero-sub fade-in delay-2">
+                Delivering integrated solutions in <strong>architecture, planning, liaisoning,</strong><br />
+                and <strong>interiors</strong> with a legacy of experience since 1991.
+            </p> -->
+            <div class="hero-cta fade-in delay-3">
+                <a href="#services" class="btn btn-primary">Explore Services</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll to Explore</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ========== STATS STRIP ========== -->
+    <section class="stats-strip">
+        <div class="stats-container">
+            <div class="stat-item">
+                <span class="stat-number">1991</span>
+                <span class="stat-label">Legacy Since</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-number">4</span>
+                <span class="stat-label">Core Services</span>
+            </div>
+            <div class="stat-divider"></div>
+            <!-- <div class="stat-item">
+                <span class="stat-number">COA</span>
+                <span class="stat-label">Registered Firm</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-number">Mumbai</span>
+                <span class="stat-label">University Graduated</span>
+            </div>
+        </div> -->
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">About Us</span>
+                <h2 class="section-title">Building Vision<br /><span class="gold-text">into Reality</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-content reveal">
+                    <p class="about-lead">
+                        A Paul &amp; Co is a multidisciplinary firm specializing in <strong>architecture,
+                            planning,
+                            liaisoning, and interior design</strong>.
+                    </p>
+                    <p>
+                        Established in 2025, the firm builds upon a <strong>family legacy in architecture and
+                            construction dating back to 1991</strong>, bringing decades of experience and
+                        industry
+                        understanding to every project.
+                    </p>
+                    <p>
+                        Our work combines <strong>creative architectural thinking with strategic planning and
+                            regulatory
+                            expertise</strong>, ensuring projects move seamlessly from concept to completion.
+                    </p>
+                    <p>
+                        At A Paul &amp; Co, we believe that every project begins with a clear
+                        <strong>vision</strong>,
+                        and
+                        through thoughtful design and professional coordination, that vision becomes a
+                        well-executed
+                        built environment.
+                    </p>
+                </div>
+                <div class="about-philosophy reveal">
+                    <h3 class="philosophy-title">Our Philosophy</h3>
+                    <div class="philosophy-items">
+                        <div class="philosophy-item">
+                            <div class="phi-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                                    <circle cx="12" cy="12" r="3" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Vision</h4>
+                                <p>Understanding the aspirations of clients and translating them into meaningful
+                                    architectural solutions.</p>
+                            </div>
+                        </div>
+                        <div class="philosophy-item">
+                            <div class="phi-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <rect x="3" y="3" width="18" height="18" rx="2" />
+                                    <path d="M3 9h18M9 21V9" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Planning</h4>
+                                <p>Ensuring every project is strategically planned for efficiency, compliance,
+                                    and
+                                    long-term value.</p>
+                            </div>
+                        </div>
+                        <div class="philosophy-item">
+                            <div class="phi-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Execution</h4>
+                                <p>Delivering projects with precision, coordination, and professional integrity.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ========== COMPANY LEGACY / HISTORY ========== -->
+            <div class="legacy-section">
+                <div class="legacy-header reveal">
+                    <span class="section-badge">Our Heritage</span>
+                    <h3 class="legacy-title">A Legacy Built on <span class="gold-text">Decades of
+                            Excellence</span></h3>
+                </div>
+                <div class="legacy-timeline">
+                    <!-- 1991 -->
+                    <div class="legacy-card reveal">
+                        <div class="legacy-year-badge">1991</div>
+                        <div class="legacy-card-inner">
+                            <div class="legacy-card-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path
+                                        d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" />
+                                </svg>
+                            </div>
+                            <div class="legacy-card-content">
+                                <h4>Company Background</h4>
+                                <div class="legacy-firm-name">Nilopher Engineering Works (N.E.W.)</div>
+                                <p>
+                                    The origins of the firm trace back to 1991, when <strong>Mr. Paul
+                                        Lopes</strong>
+                                    established
+                                    <strong>Nilopher Engineering Works (N.E.W.)</strong>, a specialized
+                                    engineering
+                                    enterprise
+                                    focusing on <strong>steel structures and ancillary engineering
+                                        works</strong>.
+                                </p>
+                                <p>
+                                    Over the next three decades, the firm built a strong reputation for
+                                    technical
+                                    precision,
+                                    reliability, and quality execution across the <strong>Vasai–Virar and
+                                        Palghar
+                                        districts</strong>.
+                                    Under his leadership, N.E.W. delivered numerous structural and engineering
+                                    solutions,
+                                    contributing to regional industrial and infrastructural development.
+                                </p>
+                                <p>
+                                    Through consistent dedication to craftsmanship, professionalism, and client
+                                    trust,
+                                    the company laid the foundation for a respected <strong>family legacy in
+                                        engineering
+                                        and construction</strong>.
+                                </p>
+                                <div class="legacy-tags">
+                                    <span class="legacy-tag">Steel Structures</span>
+                                    <span class="legacy-tag">Engineering Works</span>
+                                    <span class="legacy-tag">Vasai–Virar &amp; Palghar</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="legacy-connector reveal">
+                        <div class="legacy-connector-line"></div>
+                        <div class="legacy-connector-dot"></div>
+                        <div class="legacy-connector-label">34 Years of Growth</div>
+                        <div class="legacy-connector-line"></div>
+                    </div>
+
+                    <!-- 2025 -->
+                    <div class="legacy-card legacy-card-new reveal">
+                        <div class="legacy-year-badge legacy-year-new">2025</div>
+                        <div class="legacy-card-inner">
+                            <div class="legacy-card-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+                                    <polyline points="9 22 9 12 15 12 15 22" />
+                                </svg>
+                            </div>
+                            <div class="legacy-card-content">
+                                <h4>New Vision</h4>
+                                <div class="legacy-firm-name">A Paul &amp; Co</div>
+                                <p>
+                                    Continuing this legacy, <strong>Ar. Aaron Paul Lopes</strong>, a Bachelor of
+                                    Architecture
+                                    graduate from the <strong>University of Mumbai</strong> and a registered
+                                    architect
+                                    with the
+                                    <strong>Council of Architecture</strong>, founded <strong>A Paul &amp; Co.
+                                        in
+                                        2025</strong>.
+                                </p>
+                                <p>
+                                    As part of this new phase, <strong>Nilopher Engineering Works (N.E.W.) was
+                                        incorporated
+                                        into A Paul &amp; Co.</strong>, bringing together decades of engineering
+                                    expertise with
+                                    contemporary architectural practice.
+                                </p>
+                                <p>
+                                    Today, the integrated firm offers <strong>architecture, planning,
+                                        engineering
+                                        consultancy,
+                                        and liaison services</strong>, representing a seamless evolution from a
+                                    strong
+                                    engineering
+                                    foundation to a forward-looking multidisciplinary practice.
+                                </p>
+                                <div class="legacy-tags">
+                                    <span class="legacy-tag">Architecture</span>
+                                    <span class="legacy-tag">Planning</span>
+                                    <span class="legacy-tag">Engineering Consultancy</span>
+                                    <span class="legacy-tag">Liaisoning</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOUNDER SECTION ========== -->
+    <section class="founder section" id="founder">
+        <div class="container">
+            <div class="founder-grid">
+                <div class="founder-image-wrap reveal">
+                    <div class="founder-img-frame">
+                        <img src="founder.jpg" alt="Ar. Aaron Paul Lopes" class="founder-img" />
+                    </div>
+                    <div class="founder-credentials">
+                        <div class="credential-item">
+                            <span class="cred-icon">🎓</span>
+                            <span>B.Arch — University of Mumbai</span>
+                        </div>
+                        <div class="credential-item">
+                            <span class="cred-icon">📋</span>
+                            <span>COA Registered Architect</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="founder-content reveal">
+                    <span class="section-badge">Our Founder</span>
+                    <h2 class="section-title">Ar. Aaron<span class="gold-text"> Paul Lopes</span></h2>
+                    <p class="founder-title-tag">Founder & Principal Architect</p>
+                    <p>
+                        Ar. Aaron Paul Lopes is the Founder and Principal Architect of A Paul & Co. He graduated
+                        with a
+                        <strong>Bachelor of Architecture (B.Arch) from the University of Mumbai</strong> and is
+                        <strong>registered with the Council of Architecture (COA), India</strong>.
+                    </p>
+                    <p>
+                        Coming from a <strong>family background in architecture and construction since
+                            1991</strong>, he
+                        carries forward a legacy of professional expertise in the field of design and
+                        development.
+                    </p>
+                    <p>
+                        Through A Paul & Co, he leads the firm with a vision to deliver <strong>innovative
+                            architectural
+                            solutions, strategic planning, and efficient project coordination</strong>, ensuring
+                        that
+                        every project reflects both creativity and practicality.
+                    </p>
+                    <a href="#contact" class="btn btn-primary mt-1">Connect with Ar. Aaron</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES SECTION ========== -->
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-badge">What We Do</span>
+                <h2 class="section-title">Our <span class="gold-text">Services</span></h2>
+                <p class="section-desc">Comprehensive, integrated solutions across every stage of your project
+                    lifecycle.</p>
+            </div>
+            <div class="services-grid">
+
+                <div class="service-card reveal" id="service-architecture">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+                            <polyline points="9 22 9 12 15 12 15 22" />
+                        </svg>
+                    </div>
+                    <div class="service-number">01</div>
+                    <h3>Architecture</h3>
+                    <p>Comprehensive architectural services from concept design to construction documentation,
+                        ensuring
+                        projects are aesthetically refined and technically sound.</p>
+                    <ul class="service-list">
+                        <li>Conceptual Design</li>
+                        <li>Architectural Planning</li>
+                        <li>Design Development</li>
+                        <li>Working Drawings</li>
+                        <li>Site Coordination</li>
+                    </ul>
+                    <div class="service-hover-line"></div>
+                </div>
+
+                <div class="service-card reveal delay-1" id="service-planning">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="3" y="3" width="18" height="18" rx="2" />
+                            <path d="M3 9h18M3 15h18M9 3v18M15 3v18" />
+                        </svg>
+                    </div>
+                    <div class="service-number">02</div>
+                    <h3>Planning</h3>
+                    <p>Strategic planning solutions to maximize development potential and ensure efficient land
+                        use.</p>
+                    <ul class="service-list">
+                        <li>Layout Planning</li>
+                        <li>Feasibility Studies</li>
+                        <li>Land Development Planning</li>
+                        <li>Master Planning</li>
+                        <li>Development Strategy</li>
+                    </ul>
+                    <div class="service-hover-line"></div>
+                </div>
+
+                <div class="service-card reveal delay-2" id="service-liaisoning">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" />
+                        </svg>
+                    </div>
+                    <div class="service-number">03</div>
+                    <h3>Liaisoning</h3>
+                    <p>Professional coordination with authorities to obtain necessary approvals and permissions
+                        efficiently.</p>
+                    <ul class="service-list">
+                        <li>Building Plan Approvals</li>
+                        <li>Layout Approvals</li>
+                        <li>Development Permissions</li>
+                        <li>Coordination with Govt. Authorities</li>
+                    </ul>
+                    <div class="service-hover-line"></div>
+                </div>
+
+                <div class="service-card reveal delay-3" id="service-interiors">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                            <path d="M2 17l10 5 10-5" />
+                            <path d="M2 12l10 5 10-5" />
+                        </svg>
+                    </div>
+                    <div class="service-number">04</div>
+                    <h3>Interiors</h3>
+                    <p>Interior spaces designed with a balance of functionality, aesthetics, and comfort.</p>
+                    <ul class="service-list">
+                        <li>Residential Interiors</li>
+                        <li>Commercial Interiors</li>
+                        <li>Space Planning</li>
+                        <li>Material & Design Selection</li>
+                    </ul>
+                    <div class="service-hover-line"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== APPROACH SECTION ========== -->
+    <section class="approach section" id="approach">
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-badge">How We Work</span>
+                <h2 class="section-title">Our <span class="gold-text">Approach</span></h2>
+                <p class="section-desc">A structured, transparent process from first meeting to final handover.
+                </p>
+            </div>
+            <div class="approach-timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-number">01</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                                <circle cx="12" cy="12" r="3" />
+                            </svg>
+                        </div>
+                        <h3>Vision</h3>
+                        <p>Understanding the client's vision, requirements, and project goals through deep
+                            consultation.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-connector"></div>
+                <div class="timeline-item reveal delay-1">
+                    <div class="timeline-number">02</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="3" y="3" width="18" height="18" rx="2" />
+                                <path d="M3 9h18M9 21V9" />
+                            </svg>
+                        </div>
+                        <h3>Planning</h3>
+                        <p>Developing strategic layouts and feasibility studies tailored to the project's
+                            unique <br /> context.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-connector"></div>
+                <div class="timeline-item reveal delay-2">
+                    <div class="timeline-number">03</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 20h9" />
+                                <path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z" />
+                            </svg>
+                        </div>
+                        <h3>Design</h3>
+                        <p>Creating architectural and interior concepts that combine aesthetics with real-world
+                            functionality.</p>
+                    </div>
+                </div>
+                <div class="timeline-connector"></div>
+                <div class="timeline-item reveal delay-3">
+                    <div class="timeline-number">04</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <polyline points="20 6 9 17 4 12" />
+                            </svg>
+                        </div>
+                        <h3>Execution</h3>
+                        <p>Managing documentation, approvals, and coordination to ensure smooth, on-time project
+                            delivery.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROJECTS SECTION ========== -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-badge">Our Work</span>
+                <h2 class="section-title">Our <span class="gold-text">Projects</span></h2>
+                <p class="section-desc">
+                    Our projects reflect a commitment to <strong>design excellence, strategic planning, and
+                        professional
+                        execution</strong>.
+                </p>
+            </div>
+            <div class="projects-tabs reveal">
+                <button class="project-tab active" data-filter="architecture">Architecture</button>
+                <button class="project-tab" data-filter="interior">Interior</button>
+            </div>
+
+            <div class="projects-grid reveal delay-1" id="projectsGrid">
+                <!-- Architecture Projects (First 3 Images) -->
+                <div class="project-card" data-category="architecture">
+                    <div class="project-img-wrap">
+                        <img src="architecture-1.jpg" alt="Building Foundation and Pillars" class="project-img" />
+                    </div>
+                    <div class="project-info">
+                        <h4>Site Construction</h4>
+                        <p>Architecture • Foundation</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="architecture">
+                    <div class="project-img-wrap">
+                        <img src="architecture-2.jpg" alt="Industrial Workshop Interior" class="project-img" />
+                    </div>
+                    <div class="project-info">
+                        <h4>Industrial Structure</h4>
+                        <p>Architecture • Structural</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="architecture">
+                    <div class="project-img-wrap">
+                        <img src="architecture-3.jpg" alt="Workshop Exterior Framework" class="project-img" />
+                    </div>
+                    <div class="project-info">
+                        <h4>Workshop Framework</h4>
+                        <p>Architecture • Planning</p>
+                    </div>
+                </div>
+
+                <!-- Interior Projects -->
+                <div class="project-card" data-category="interior">
+                    <div class="project-img-wrap">
+                        <img src="interior-1.jpg" alt="Two-Story House Exterior at Night" class="project-img" />
+                    </div>
+                    <div class="project-info">
+                        <h4>House Exterior Lighting</h4>
+                        <p>Architecture • Night View</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="interior">
+                    <div class="project-img-wrap">
+                        <img src="interior-2.jpg" alt="Living Room with TV Panel" class="project-img" />
+                    </div>
+                    <div class="project-info">
+                        <h4>Modern Living Room</h4>
+                        <p>Interior Design • Fit-outs</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="interior">
+                    <div class="project-img-wrap">
+                        <img src="interior-3.jpg" alt="Wooden Staircase and Marble Floor" class="project-img" />
+                    </div>
+                    <div class="project-info">
+                        <h4>Staircase Design</h4>
+                        <p>Interior Design • Materials</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="interior">
+                    <div class="project-img-wrap">
+                        <img src="interior-4.jpg" alt="Wall Decor with Lit Crucifix" class="project-img" />
+                    </div>
+                    <div class="project-info">
+                        <h4>Wall Decor & Lighting</h4>
+                        <p>Interior Design • Decor</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="interior">
+                    <div class="project-img-wrap">
+                        <img src="interior-5.jpg" alt="Grey Tile Bathroom" class="project-img" />
+                    </div>
+                    <div class="project-info">
+                        <h4>Bathroom Interior</h4>
+                        <p>Interior Design • Styling</p>
+                    </div>
+                </div>
+                <!-- 6th Interior Card -->
+                <div class="project-card" data-category="interior">
+                    <div class="project-img-wrap">
+                        <img src="interior-6.jpg" alt="Modern Bedroom with Wardrobe" class="project-img" />
+                    </div>
+                    <div class="project-info">
+                        <h4>Modern Bedroom Suite</h4>
+                        <p>Interior Design • Decor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header centered">
+                <span class="section-badge">Get In Touch</span>
+                <h2 class="section-title">Let's Build<br /><span class="gold-text">Together</span></h2>
+                <p class="section-desc">For architecture, planning, liaisoning, or interior design inquiries,
+                    feel free
+                    to contact us.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <div class="contact-card">
+                        <div class="contact-logo-wrap">
+                            <img src="logo.png" alt="A Paul & Co" class="contact-logo" />
+                        </div>
+                        <h3>A Paul & Co</h3>
+                        <p class="contact-tagline">Architecture • Planning • Liaisoning • Interiors</p>
+                        <div class="contact-details">
+                            <a href="tel:+918007212834" class="contact-detail-item" id="phone-link">
+                                <div class="contact-detail-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <path
+                                            d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.77 19.79 19.79 0 01.22 1.14 2 2 0 012.2 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.17a16 16 0 006 6l.54-.54a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <span class="detail-label">Phone</span>
+                                    <span class="detail-value">+91 8007212834</span>
+                                </div>
+                            </a>
+                            <a href="mailto:apaulcompany1@gmail.com" class="contact-detail-item" id="email-link">
+                                <div class="contact-detail-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                        <polyline points="22,6 12,13 2,6" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <span class="detail-label">Email</span>
+                                    <span class="detail-value">apaulcompany1@gmail.com</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrap reveal delay-1">
+                    <form class="contact-form" id="contactForm" onsubmit="handleFormSubmit(event)">
+                        <h3>Send a Message</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your name" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service...</option>
+                                <option value="architecture">Architecture</option>
+                                <option value="planning">Planning</option>
+                                <option value="liaisoning">Liaisoning</option>
+                                <option value="interiors">Interiors</option>
+                                <option value="multiple">Multiple Services</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="4"
+                                placeholder="Describe your project or inquiry..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary full-width" id="submit-btn">Send
+                            Message</button>
+                        <div class="form-success" id="formSuccess">
+                            <span>✓</span> Thank you! We'll get back to you soon.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <img src="logo.png" alt="A Paul & Co" class="footer-logo" />
+                    <div>
+                        <div class="footer-name">A Paul & Co</div>
+                        <div class="footer-services-tag">Architecture • Planning • Liaisoning • Interiors</div>
+                    </div>
+                </div>
+                <div class="footer-tagline">
+                    <em>"Your Vision. Our Planning. Exceptional Architecture." </em>
+                </div>
+                <div class="footer-contact-quick">
+                    <a href="tel:+918007212834" class="footer-link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="16"
+                            height="16">
+                            <path
+                                d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.77 19.79 19.79 0 01.22 1.14 2 2 0 012.2 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.17a16 16 0 006 6l.54-.54a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z" />
+                        </svg>
+                        +91 8007212834
+                    </a>
+                    <a href="mailto:apaulcompany1@gmail.com" class="footer-link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="16"
+                            height="16">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,13 2,6" />
+                        </svg>
+                        apaulcompany1@gmail.com
+                    </a>
+                    <a href="https://www.instagram.com/apaul.co?igsh=MW0yMDJvbng4eDBhZw==" target="_blank"
+                        rel="noopener noreferrer" class="footer-link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="16"
+                            height="16">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                        @apaul.co
+                    </a>
+                </div>
+            </div>
+            <div class="footer-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#founder">Founder</a>
+                <a href="#services">Services</a>
+                <a href="#approach">Approach</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 A Paul & Co. All Rights Reserved.</p>
+                <p>Registered with the Council of Architecture (COA), India</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function () {
+            // Replace with your actual public key from EmailJS dashboard
+            emailjs.init("A-gQmJBJc3EPK_90d");
+        })();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
